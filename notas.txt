@@ -1,0 +1,34 @@
+Curso de React, profundizando en los hooks.
+Temas puntuales de la sección.
+
+¿Qué veremos en esta sección?
+
+    -Profundizar en el tema de los Hooks
+
+    -Crear otros customHooks
+
+    -useState
+
+    -useCounter - Personalizado
+
+    -useEffect y sus precauciones
+
+    -useRef
+
+    -useFetch - Personalizado + optimizaciones
+
+    -useLayoutEffect
+
+    -Memo
+
+    -useMemo
+
+    -useCallback
+
+Estos son los Hooks relativamente simples, aún hay mas que explicaremos más adelante, pero en esta sección nos enfocaremos en estos trabajos y para qué nos pueden servir.
+Adicionalmente estaremos dejando las bases para lo que será una sección de pruebas sumamente interesante después.
+
+useState.
+    -Cuando se hace un useState, la primera palabra que se envía se utiliza cómo propiedad y la otra cómo función y el parametro es el que se manda cómo inicialización, en este caso del contador.
+
+Dependencias del useEffect, no se recomienda poner ningun useEffect sin alguna dependencia, la dependencia es el segundo valor que uno le manda al useEffect, es cómo una condición de porque queremos que el useEffect se vuelva a disparar
